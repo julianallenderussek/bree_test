@@ -1,0 +1,14 @@
+.main-section {
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.input-form {
+  max-width: 200px;
+}
+
+.result-row {
+  display: flex;
+}
