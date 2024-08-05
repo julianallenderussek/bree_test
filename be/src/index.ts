@@ -1,6 +1,7 @@
 import express, { Request, Response } from 'express';
 import axios from 'axios';
 import cors from 'cors';
+import morgan from 'morgan';
 import dotenv from 'dotenv';
 const app = express();
 const port = 5000;
@@ -8,6 +9,8 @@ dotenv.config();
 
 app.use(express.json());
 app.use(cors());
+app.use(morgan('dev'));
+
 
 app.get('/api', (req, res) => {
   res.send('Api online!');
