@@ -1,14 +1,64 @@
 .main-section {
-  padding: 50px;
+  padding: 0 15px;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
+.main-title {
+  font-weight: 300;
+  margin: 5px 0;
+  color: lightblue;
+}
+
+.singup {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.sub-title {
+  text-align: center;
+  font-weight: 300;
+}
 .input-form {
   max-width: 200px;
 }
 
 .result-row {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.section {
+  margin: 0 0 0 70px;
+}
+input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  max-width: 350px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  color: lightcoral;
+}
+
+select {
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 5px 0 0;
 }

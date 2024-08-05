@@ -1,9 +1,17 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: lightblue; */
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+}
+
 .form-container {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
+  border: 0px solid #ccc;
+  border-radius: 20px;
+  background-color: white;
 }
 
 form div {
@@ -49,4 +57,32 @@ button:disabled {
 .result {
   margin-top: 20px;
   font-size: 18px;
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 3px 20px;
+  border: 0px solid #ccc;
+  border-radius: 20px;
+  background-color: lightgreen;
+}
+
+.clear-message {
+  font-weight: 300;
+}
+
+.not-clear {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 3px 20px;
+  border: 0px solid #ccc;
+  border-radius: 20px;
+  background-color: lightpink;
+  font-weight: 300;
+  font-size: 20px;
 }
